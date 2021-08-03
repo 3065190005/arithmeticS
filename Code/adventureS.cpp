@@ -4,11 +4,7 @@
 #include <iostream>
 #include <thread>
 
-#ifdef WIN32
-#include <WinSock2.h>
-#else
-#include <socket.h>
-#endif
+#include "include.h"
 
 int main()
 {
